@@ -1,6 +1,22 @@
 
+*{
+display:flex;
+flex-direction:row;
+row-gap:0.5rem;
+column-gap:0.5rem;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: stretch;
+background-color:#fef6e4;
+}
+
+title{
+display:none;
+}
+
 h1 {
 font-family: sans-serif;
+color:#001858;
 }
 /*
 h2 {
@@ -13,6 +29,30 @@ font-family: "Martel";
 */
 
 
+section.proyectos{
+flex-basis: 50%;
+flex-grow:1;
+}
+
+section.about{
+flex-basis:49%;
+flex-grow:1;
+}
+
+section.contenidos{
+flex-basis:100%;
+
+}
+section.contact{
+flex-basis:100%;
+}
+
+section.foot{
+flex-basis:100%;
+
+}
+
+
 h2 {
 font-family:"Arial";
 }
@@ -20,3 +60,4 @@ font-family:"Arial";
 h3 {
 font-family:"serif";
 }
+

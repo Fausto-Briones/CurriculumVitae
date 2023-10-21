@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-<title> CurriculumVitae</title>
+<title>CurriculumVitae</title>
     <meta name="description" content="Curriculum vitae"/>
     <meta name="author" content="Fausto Briones"/>
     <meta name="keywords" content="Curriculum, acerca, certificaciones"/>
@@ -15,15 +15,17 @@
       <header>
         <h1>Curriculum</h1>
       </header>
+      <section class="contenidos">
       <nav><h2>Contenidos</h2>
         <ul>
-          <li>Proyectos</li>
-          <li>Acerca de mí</li>
-          <li>Certificaciones</li>
-          <li>Contacto</li>
+		<li><a href=#proys>Proyectos</a></li>
+		<li><a href="#abou">Acerca de mí</a></li>
+		<li><a href="#cert">Certificaciones</a></li>
+		<li><a href="contac">Contacto</a></li>
         </ul>
       </nav>
-<section>
+      </section>
+<section class="proyectos" id="proys">
 <h2>Proyectos</h2>
 <ul>
 <li>Gestor de contenido de los mundiales de fútbol</li>
@@ -31,21 +33,21 @@
 <li>Bash shells payloads</li>
 </ul>
 </section>
-<section>
+<section class="about" id="abou">
 <h2>Acerca de mí</h2>
 <ul>
   <li>Creador de contenido en HTB (Hack The Box) <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAXCAMAAAAGEyDiAAAAnFBMVEX///8AAACV7gCc7wDz9PS582Xu7u+dnqH7/Pyx8kq6urzr6+yi8BsHDx7w8fHi+sTY+LCXmJvj4+QSGCXDxMar8T7MzM3S0tPd3d6sra/u/N1lZmuOj5JYWmAAABUAABh5en4pLDT5/vHR95/L9pPe+bvy/eTq+9Oo8DH8/vjE9YC+9HTW+KkAAAlPUVeFh4ocISxCREyz8lc4O0OpXzpPAAACWElEQVRIieWUa3eiQAyGkwGFDogFQUBQwXpruyLq//9v+2bQXtbt2f1EPzSe44SZkGfyThiiH21P1vobqGNf7ZW16Zm6fVD+mHZ7lcx6pD6/KOvJeI+Wel31hd1Y6uX59rBW1mNP3IF1rVbsl2U9XN04JhrqDF6gtS0zdh5qDK6eEmlNkRabkpdiMkOgmYhkTcfmhcgJkURisZbdcf1bR6G7/DfuYUI05RBeyJxLaobVLgU8pwoLWehw6WiKCyyWDpHTOE6YkStxjM3kMjZER7x+4Tuuj29IPcxoe1ZqTcmNO6mJUkY6aovTCcOJNVKEZHORcWFiRlJWXMnehOuYSReLKR+xv0nkFrLlSRtzeaezT7R6VQrUAZrqnds6TiXcjPOSh8BdIHWcwZnXdRczCoRbeJF3FG4ZeJ4LbpOGHJMWsTyIQzEv2vvz9eV/llj7nTjv3BFUWiBdyR7QXQZzzNxy9ZHbFkVRIzCv5/PGA3cJeW3InEvxItVocfyCS2PVNfInnadSbzs6HJYnZMBEdNTgVhXrD9y/6JxhkzG0JnMiR74/3n9yU56HYcMeFVymDWrA+dICz19z51kOrrvkPD1B8IiboSn7v7i86Pq5ktaUs7IvEB6MAD0a88SVmKFwTT/jLJ0RdM67fm7xPWXQW/qpRgbTKZ+53U1x5W6s5Do/RE7XsykwlXlSWTZ986WBEGPqk6a2bYmG2fLmMOhypFNZ80ym4A/uNlHSUYY7g9/fFY2bcrDaqc3za3+3ZGe4lhP81EuvVNhqoCx13vaNhe3O42+g/gD7DZHZKPOYS51AAAAAAElFTkSuQmCC"></li>
   <li>Entrenador del equipo de programación competitiva de Ecuador <br><iframe src="https://youtu.be/Y0aKOYoTsw0" width="400" height="200"></iframe></br></li>
 </ul>
 </section>
-<section>
+<section class="certs" id="cert">
 <h2>Certificaciones</h2>
 <ul>
   <li>PWK OSCP</li>
   <li>eWPT</li>
 </ul>
 </section>
-<section>
+<section class="contact" id="contac">
 <h2>Contacto</h2>
 <form action="https://fausto-briones.github.io/fausto-briones" method="post">
   <input type="text" name="nombre" placeholder="Nombre">
@@ -54,8 +56,9 @@
 </form>
 <b>Email:</b> fabrione@espol.edu.ec
 </section>
+<section class="foot">
 <footer>
   <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/footer#:~:text=El%20Elemento%20HTML%20Footer%20(%20%3Cfooter,%3E%20%2C%20).">This footer</a>
-</footer>
+</footer></section>
     </body>
 </html>
