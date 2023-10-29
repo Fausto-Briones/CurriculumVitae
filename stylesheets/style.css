@@ -16,6 +16,9 @@ display:none;
 
 section.head{
 background-color:#8bd3dd;
+padding: 10px;
+border: 1px solid white;
+border-radius: 20px;
 }
 
 h1 {
@@ -32,23 +35,40 @@ font-family: "Martel";
 }
 */
 
+section.certs{
+flex-basis:50%;
+padding:10px;
+border: 1px solid black;
+border-radius:10px;
+}
 
 section.proyectos{
 flex-basis: 50%;
 flex-grow:1;
 display: inline-block;
+padding: 10px;
+border: 1px solid black;
+border-radius: 10px;
 }
 
 section.about{
 flex-basis:49%;
 flex-grow:1;
+padding:10px;
+border: 1px solid black;
+border-radius:10px;
 }
 
 section.contenidos{
 flex-basis:100%;
-
+padding: 10px;
+border: 1px solid white;
+border-radius: 10px;
 }
 section.contact{
+ padding: 10px;
+ border: 1px solid white;
+ border-radius: 10px;
 flex-basis:100%;
 }
 
